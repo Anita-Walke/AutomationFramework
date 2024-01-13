@@ -2,6 +2,7 @@ package TestLayer;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -37,6 +38,11 @@ public class RegisterPassportTest extends BaseClass {
 		Object data[][]=excelReader.getAllData(0);
 		return data;
 		
+	}
+	@AfterTest
+	public void tearDown()
+	{
+		driver.quit();
 	}
 
 }
