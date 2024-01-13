@@ -1,0 +1,4 @@
+# Created at 2024-01-12T16:54:52.934
+Boot Manifest-JAR contains absolute paths in classpath 'D:\TestingProjects\UI Framework\PassportIndiaDemo\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
